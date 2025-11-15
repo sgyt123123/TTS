@@ -3,7 +3,7 @@ import requests
 import time
 from urllib.parse import urlencode
 
-st.set_page_config(page_title="TTS语音合成", page_icon="🎵", layout="wide")
+st.set_page_config(page_title="菏投科技TTS语音合成", page_icon="🎵", layout="wide")
 
 BASE_URL = "https://dds.dui.ai/runtime/v1/synthesize"
 
@@ -132,7 +132,7 @@ def add_history(item):
 
 init_state()
 
-st.title("🎵 TTS语音合成")
+st.title("🎵 菏投科技TTS语音合成")
 st.markdown("**智能语音合成工具** | 支持多种发音人 & 参数自定义")
 
 # 添加一个分割线
