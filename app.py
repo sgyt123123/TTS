@@ -371,3 +371,12 @@ for i in range(0, len(VOICES), 3):
 
 💡 **推荐场景**: {voice['label']}
 """)
+
+# 底部版权信息
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center; color: #666; padding: 20px 0;'>"
+    "© 2025 Copyright by shixu"
+    "</div>",
+    unsafe_allow_html=True
+)
